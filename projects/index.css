@@ -1,0 +1,359 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #24315e;
+    margin: 0px;
+    padding: 10px;
+    background-color: #05DDAA;
+}
+.navbar li{
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    padding-right: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color:#24315e;
+    font-size: 18px;
+    margin right:10px
+    padding: 0px;
+}
+.navbar li img{
+    width:100px;
+    margin-right: 200px;
+
+}
+#downloadcv{
+    padding: 1px;
+    padding-left: 70px;
+    margin-top: 35px;
+    padding-right: 50px;
+    padding-top: 1px;
+    color: black;
+    border-radius: 80%;
+}
+#downloadcv a{
+    background-color: #24315e;
+    color: white;
+    padding: 20px;
+}
+#downloadcv a:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid #24315e;
+
+}
+.landing{
+    display: flex;
+    padding: 1px;
+    padding-top: 200px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin: 0px;
+    background-color: #05DDAA;
+
+}
+.div1{
+    margin-top: 10px;
+    color:#24315e;
+    font-family:Arial;
+}
+.div2 img{
+    width: 470px;
+    margin: -5px;
+    margin-left: 500px;
+    margin-top: -40px;
+}
+.say{
+    background-color: #24315e;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15x;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.say:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+.myclient{
+    background-color: #223c63;
+    font:arial;
+}
+.myclient div{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size:25px;
+    padding: 40px 0px 30px 0px;
+}
+.myclient div span img{
+    margin: 0px 40px 0px 40px;
+}
+.dedication{
+    display: flex;
+    justify-content: left;
+    padding: 50px;
+}
+.dedication div{
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-left: 2.5px solid black;
+}
+.dedication div img{
+    width: 80px;
+    height: 70px;
+    margin-bottom: -10px;
+}
+.dedication div span{
+    font-size: 30px;
+    color: #24315e;
+    font-family: algerian ;
+}
+.mainskill{
+    display: flex;
+    justify-content: center;
+}
+.mainskill div{
+    font-size: 20px;
+    color:#223c63 ;
+    margin :50px;
+}
+.ulskill{
+    display: flex;
+}
+.ulup{
+    background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg);
+}
+.ulskill li{
+    background-color: white;
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+.year{
+    width: 240px;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 420px;
+    left: 100px;
+    background-color: azure;
+    border-radius: 2px;
+}
+.year1{
+    color:red;
+    font-size: 50px;
+    font-weight: 600;
+    margin:12px ;
+   
+}.year2{
+    color: darkcyan;
+    font-size: 21px;
+    margin: 25px;
+
+
+}
+.about{
+    background-color: #fed83a;
+    display: flex;
+    border-top: 1px solid black;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+}
+.about div{
+    margin: 0px 60px 0px 60px;
+    margin-top: 20px;
+}
+.about div p{
+    font-size: 18px;
+    font-family: Arial;
+    color: #24315e;
+    line-height: 27px;
+}
+.about div h1{
+    font-size: 57px;
+    color:#24315e;
+    font-style: normal;
+
+}
+.five{
+    display: flex;
+}
+.five div{
+    border: 3px solid black;
+    width: 76%;
+    overflow: hidden;
+    margin: 2%;
+}
+.five div img{
+    width: 100%;
+    height: 100%;
+
+}
+.five div img:hover{
+    
+    scale:1.4;
+    transition: scale 1s ease-out;
+}
+.five1{
+    display: flex;
+}
+.five1 div{
+    
+    width: 50%;
+    border:3px solid black;
+    overflow:hidden;
+    margin:2%;
+}
+.five1 div img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+.five1 div img:hover{
+    scale:1.4;
+    transition: scale 0.5s ease-out;
+}
+.faq{
+    color:red;
+
+}
+.que{
+    color: #223c63;
+    font-size: 53px;
+    font-family: Cooper Black;
+}
+.faq1{
+    width: 600px;
+    height: 5px;
+    background-color: #223c63;
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq1 span{
+    background-color: #05DDAA;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.faq1a{
+    width:600px;
+    height: 5px;
+    background-color: #223c63;
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.contact{
+    margin-top: 140px;
+    background-color: #05DDAA;
+    padding: 150px;
+    font-size: 53px;
+    font-family: Cooper Black;
+    color: #24315e;
+
+}
+.cont{
+    
+        background-color: #24315e;
+        color: white;
+        padding:15px;
+        margin: 0px 0px 0px 450px;
+        padding-left: 40px;
+        padding-right: 60px;
+}
+.cont:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black; 
+}
+.blog{
+    display: flex;
+    font-size: 23px;
+    color: #24315e;
+}
+.blog1{
+    display: flex;
+    justify-content: center;
+
+}
+.blog div{
+    padding: 30px;
+
+}
+.blog1 div img{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 200px;
+    margin: 50px;
+}
+.blog1 div img:hover{
+    
+    scale:1.1;
+    transition: scale 0.5s ease-out;
+}
+.conct{
+    display: flex;
+    justify-content: center;
+    background-color: #24315e;
+    padding: 50px;
+}
+.conct1{
+    margin: 100px;
+    font-size: 35px;
+}
+.conct2{
+    margin: 70px;
+    background-color: aliceblue;
+    padding: 70px;
+}
+.conct2 div input{
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 150px;
+    height: 60px;
+}
+.conct2 div input::placeholder{
+    font-size: 23px;
+}
+.conct2 div{
+    padding: 15px 170px 15px 40px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.conct2 button{
+    padding: 15px 130px 15px 130px;
+}
+.conct2 div 1{
+    font-size: 20px;
+
+}
+.concts i{
+    display: flex;
+    background-color: deeppink;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+
